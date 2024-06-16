@@ -11,7 +11,7 @@ resource "aws_autoscaling_group" "autoscaling" {
 
   tag {
     key                 = "Name"
-    value               = "groupcec2"
+    value               = "groupcec2-changed"
     propagate_at_launch = true
   }
 }
