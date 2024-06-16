@@ -53,7 +53,7 @@ resource "aws_iam_policy" "s3_policy" {
         "s3:GetObject"
       ]
       Effect   = "Allow"
-      Resource = "arn:aws:s3:::your-bucket-name/*"
+      Resource = "arn:aws:s3:::groupc-terraform-state-bucket/*"
     }]
   })
 }
