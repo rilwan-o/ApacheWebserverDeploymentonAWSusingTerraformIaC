@@ -6,7 +6,7 @@ curl -sL https://rpm.nodesource.com/setup_16.x | sudo bash -
 sudo yum install -y nodejs
 sudo service httpd start
 sudo chkconfig httpd on
-git clone https://github.com/cloudboostauk/webApp-Quizz-B.git
+git clone https://github.com/cloudboostauk/webApp-RQGen-A.git
 cd webApp-Quizz-B
 npm install
 npm start
