@@ -3,6 +3,12 @@ resource "aws_s3_bucket" "terraform_state" {
   
 }
 
+/* terraform {
+  backend "s3" {
+    bucket = "groupc-terraform-state-bucket"
+    key    = "./.terraform/terraform.tfstate"  # Choose an appropriate key
+  }
+} */
 
 resource "aws_dynamodb_table" "terraform_locks" {
   name         = "terraform-locks"
